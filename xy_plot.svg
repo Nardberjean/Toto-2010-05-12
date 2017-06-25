@@ -11,8 +11,11 @@
         .x-labels {
             text-anchor: middle;
         }
+        .y-labels {
+            text-anchor: end;
+        }
         .graph .grid {
-            stroke: "red";
+            stroke: red;
             stroke-width: 1;
         }
         /* ]]> */
