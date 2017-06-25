@@ -10,10 +10,11 @@
         }
         .x-labels {
             text-anchor: middle;
+            alignment-baseline: hanging;
         }
         .y-labels {
             text-anchor: end;
-            dominant-baseline: middle;
+            alignment-baseline: middle;
         }
         .graph .grid {
             stroke: red;
