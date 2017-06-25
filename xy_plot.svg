@@ -8,6 +8,9 @@
         .labels {
             font-size: 1px;
         }
+        .x-labels {
+            text-anchor: end;
+        }
         .graph .grid {
             stroke: "red";
             stroke-width: 1;
