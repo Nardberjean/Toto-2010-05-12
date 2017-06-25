@@ -9,7 +9,7 @@
             font-size: 1px;
         }
         .x-labels {
-            text-anchor: end;
+            text-anchor: middle;
         }
         .graph .grid {
             stroke: "red";
