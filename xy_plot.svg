@@ -44,10 +44,10 @@
           <line x1="2000" x2="2000" y1="-10" y2="0" stroke="black" stroke-width=".01"/>
 
           <g class="labels x-labels">
-          <text x="2000" y="1">2000</text>
-          <text x="2005" y="1">2005</text>
-          <text x="2010" y="1">2010</text>
-          <text x="2005" y="2" class="label-title">Year</text>
+          <text x="2000" y="1.5">2000</text>
+          <text x="2005" y="1.5">2005</text>
+          <text x="2010" y="1.5">2010</text>
+          <text x="2005" y="2.5" class="label-title">Year</text>
         </g>
         <g class="labels y-labels">
           <text x="1999" y="-10">10</text>
