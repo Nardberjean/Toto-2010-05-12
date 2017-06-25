@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="1995 -12 15 19">
+    <style>
+        /* <![CDATA[ */
+        circle {
+          fill: orange;
+          r: ".2";
+        }
+        .labels {
+            font-size: 1px;
+        }
+        .graph .grid {
+            stroke: "red";
+            stroke-width: 1;
+        }
+        /* ]]> */
+    </style>
+
+
+    <g transform="scale(1,-1)">
+        <circle cx="2000"  cy="0"  r=".2"/>
+        <circle cx="2001"  cy="0"  r=".4"/>
+        <circle cx="2005"  cy="5"  r=".1"/>
+        <circle cx="2010"  cy="10" r=".1"/>
+
+        <g class="grid x-grid" id="xGrid">
+          <line x1="2000" x2="2010" y1="0" y2="0"/>
+        </g>
+        <g class="grid y-grid" id="yGrid">
+          <line x1="2000" x2="2000" y1="0" y2="10"/>
+        </g>
+          <line x1="2000" x2="2010" y1="0" y2="0" stroke="yellow" stroke-width=".1"/>
+          <line x1="2000" x2="2000" y1="0" y2="10" stroke="yellow" stroke-width=".1"/>
+    </g>
+
+          <line x1="2000" x2="2010" y1="0" y2="0" stroke="black" stroke-width=".01"/>
+          <line x1="2000" x2="2000" y1="-10" y2="0" stroke="black" stroke-width=".01"/>
+
+          <g class="labels x-labels">
+          <text x="2000" y="1">2000</text>
+          <text x="2005" y="1">2005</text>
+          <text x="2010" y="1">2010</text>
+          <text x="2005" y="2" class="label-title">Year</text>
+        </g>
+        <g class="labels y-labels">
+          <text x="1999" y="-10">10</text>
+          <text x="1999" y="-3">3</text>
+          <text x="1999" y="-1">1</text>
+          <text x="1998" y="-5" class="label-title">Rank</text>
+        </g>
+</svg>
