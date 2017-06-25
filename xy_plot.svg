@@ -13,6 +13,7 @@
         }
         .y-labels {
             text-anchor: end;
+            alignment-baseline: middle;
         }
         .graph .grid {
             stroke: red;
